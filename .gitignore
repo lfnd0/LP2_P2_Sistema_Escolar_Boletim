@@ -22,3 +22,13 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /.metadata/
+Servers/.settings/org.eclipse.wst.server.core.prefs
+VideoGameShop/bin/mvnw
+VideoGameShop/bin/mvnw.cmd
+VideoGameShop/bin/pom.xml
+VideoGameShop/bin/.mvn/wrapper/maven-wrapper.jar
+VideoGameShop/bin/.mvn/wrapper/maven-wrapper.properties
+VideoGameShop/bin/.mvn/wrapper/maven-wrapper.jar
+VideoGameShop/bin/src/main/resources/application.properties
+VideoGameShop/bin/.mvn/wrapper/maven-wrapper.jar
+Servers/.settings/org.eclipse.wst.server.core.prefs
