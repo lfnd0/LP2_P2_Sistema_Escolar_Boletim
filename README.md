@@ -6,5 +6,7 @@
 # Time de desenvolvimento
 
 [Danillo Rodrigues](https://github.com/danilo100kl)
+
 [João Marcos](https://github.com/JoaoMarcoss)
+
 [Luiz Fernando](https://github.com/lfnd0)
