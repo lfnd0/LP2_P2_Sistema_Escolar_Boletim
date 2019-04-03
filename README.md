@@ -52,7 +52,7 @@ http://localhost:8080/vgs/compras
 
 **Observação 1**: navegue entre os diretórios do projeto e localize a pasta `json`, lá encontram-se a estrura dos arquivos a criação de usuário e relização de compra.
 
-**Observação 2**: para vizualizar gênero, jogo e usuário individualmente, pasta passar o /id na requisição `HTTP`.
+**Observação 2**: para vizualizar gênero, jogo e usuário individualmente, basta passar o /id na requisição `HTTP`.
 
 # Atenção quanto ao modo de persistência de dados
 
