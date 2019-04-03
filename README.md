@@ -50,13 +50,13 @@ http://localhost:8080/vgs/usuarios
 http://localhost:8080/vgs/compras
 ```
 
-**Observação 1**: navegue entre os diretórios do projeto e localize a pasta `json`, lá encontram-se a estrura dos arquivos a criação de usuário e relização de compra.
+**Observação 1**: navegue entre os diretórios do projeto e localize a pasta `json`, lá encontram-se: a estrura dos arquivos para a criação de usuário e realização de compra.
 
 **Observação 2**: para vizualizar gênero, jogo e usuário individualmente, basta passar o /id na requisição `HTTP`.
 
 # Atenção quanto ao modo de persistência de dados
 
-Por padrão o VGS usa o banco de dados H2 - em memória, para realizar a persistência de dados. Se você deseja usar o `MySQL Workbench` para esta tarefa, tenha certeza de ter instalado o mesmo e criado um novo usuário com todas as permições e as seguintes configurações para name/password: `vgs`. Por fim, inicie a criação de uma nova conexão conforme as informações contidas na imagem abaixo e execute o projeto:
+Por padrão o VGS usa o banco de dados H2 - em memória, para realizar a persistência de dados. Se você deseja usar o `MySQL Workbench` para esta tarefa, tenha certeza de ter instalado o mesmo e criado um novo usuário com todas as permições e as seguintes configurações para name/password: `vgs`. Por fim, inicie a criação de uma nova conexão conforme as informações contidas na imagem abaixo:
 
 ![config](img/config.jpg)
 
@@ -70,6 +70,8 @@ Para:
 ```sh
 spring.profiles.active=producao
 ```
+Execute o projeto no `Spring Toll Suite`.
+
 # Time de desenvolvimento
 
   * [Danillo Rodrigues](https://github.com/danilo100kl)
