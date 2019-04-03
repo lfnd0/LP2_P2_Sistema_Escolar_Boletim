@@ -23,7 +23,7 @@ Aguarde o download ou o comando `git clone` do VGS ser finalizado, em seguida ab
 
 # Utilizando o VGS
 
-Para usar o VGS execute o projeto e utilize o `Postman` para realizar as requisições `HTTP`. Navegue entre os dirAbaixo encontram-se os endereços para tais requisições:
+Para usar o VGS execute o projeto e utilize o `Postman` para realizar as requisições `HTTP`. Abaixo encontram-se os endereços para tais requisições:
 
 ### Visualizar todos os gêneros:
 ```sh
