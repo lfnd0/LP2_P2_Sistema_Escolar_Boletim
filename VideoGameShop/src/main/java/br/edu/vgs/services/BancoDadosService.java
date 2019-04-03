@@ -44,9 +44,10 @@ public class BancoDadosService {
 		Jogo jogo10 = new Jogo(null, "Devil May Cry 5", 129.99);
 		Jogo jogo11 = new Jogo(null, "Outlast 2", 57.99);
 		Jogo jogo12 = new Jogo(null, "South Park: The Fractured But Whole", 159.99);
+		Jogo jogo13 = new Jogo(null, "Left 4 Dead 2", 19.99);
 
-		genero1.getJogos().addAll(Arrays.asList(jogo1, jogo2, jogo3, jogo4, jogo8, jogo10));
-		genero2.getJogos().addAll(Arrays.asList(jogo1, jogo2, jogo4, jogo6, jogo8, jogo9, jogo10, jogo12));
+		genero1.getJogos().addAll(Arrays.asList(jogo1, jogo2, jogo3, jogo4, jogo8, jogo10, jogo13));
+		genero2.getJogos().addAll(Arrays.asList(jogo1, jogo2, jogo4, jogo6, jogo8, jogo9, jogo10, jogo12, jogo13));
 		genero3.getJogos().addAll(Arrays.asList(jogo3, jogo7, jogo12));
 		genero4.getJogos().addAll(Arrays.asList(jogo2, jogo4, jogo12));
 		genero5.getJogos().addAll(Arrays.asList(jogo5));
@@ -68,8 +69,9 @@ public class BancoDadosService {
 		jogo10.getGeneros().addAll(Arrays.asList(genero1, genero2));
 		jogo11.getGeneros().addAll(Arrays.asList(genero9));
 		jogo12.getGeneros().addAll(Arrays.asList(genero2, genero3, genero4));
+		jogo13.getGeneros().addAll(Arrays.asList(genero1, genero2));
 
 		generoRepository.saveAll(Arrays.asList(genero1, genero2, genero3, genero4, genero5, genero6, genero7, genero8, genero9, genero10));
-		jogoRepository.saveAll(Arrays.asList(jogo1, jogo2, jogo3, jogo4, jogo5, jogo6, jogo7, jogo8, jogo9, jogo10, jogo11, jogo12));
+		jogoRepository.saveAll(Arrays.asList(jogo1, jogo2, jogo3, jogo4, jogo5, jogo6, jogo7, jogo8, jogo9, jogo10, jogo11, jogo12, jogo13));
 	}
 }

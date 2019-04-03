@@ -1,0 +1,24 @@
+{
+    "usuario": {
+        "id": 1
+    },
+    "pagamento": {
+
+        "@type": "cartao",
+        "parcelas": 10
+    },
+    "itens": [
+        {
+            "quantidade": 1,
+            "jogo": {
+                "id": 1
+            }
+        },
+        {
+            "quantidade": 1,
+            "jogo": {
+                "id": 2
+            }
+        }
+    ]
+}

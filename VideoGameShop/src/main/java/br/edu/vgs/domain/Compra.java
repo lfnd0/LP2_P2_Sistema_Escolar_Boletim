@@ -142,8 +142,11 @@ public class Compra implements Serializable {
 		for (ItemCompra item : getItens()) {
 			builder.append(item.toString());
 		}
-		builder.append("\nTOTAL A PAGAR: ");
+		builder.append("\nValor total: ");
 		builder.append(nF.format(getValorTotal()));
+		builder.append("\nATENÇÃO:"
+				+ " somente após a confirmação do pagamento, é que a VideoGameShop enviará um novo"
+				+ " e-mail contendo o link para o(s) download(s) do(s) seu(s) jogo(s).");
 		return builder.toString();
 	}
 }

@@ -46,7 +46,7 @@ public class ResourceExceptionHandler {
 	
 	@ExceptionHandler(DataIntegrityViolationException.class)
 	public ResponseEntity<StandardError> dataIntegretyViolationException(DataIntegrityViolationException e, HttpServletRequest request){
-	    ValidationError erro = new ValidationError(HttpStatus.BAD_REQUEST.value(),e.getMessage(),System.currentTimeMillis());
+	    ValidationError erro = new ValidationError(HttpStatus.BAD_REQUEST.value(), e.getMessage(), System.currentTimeMillis());
 	    if(e.getMessage().contains("EMAIL")){
 	        erro.setMensagem("Erro de validação.");
 	        erro.addErros("email", "E-mail já cadastrado.");
