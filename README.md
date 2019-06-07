@@ -56,7 +56,7 @@ http://localhost:8080/vgs/compras
 
 # Atenção quanto ao modo de persistência de dados
 
-Por padrão o VGS usa o banco de dados `H2` - em memória, para realizar a persistência de dados. Se você deseja usar o `MySQL Workbench` para esta tarefa, tenha certeza de ter instalado o mesmo e criado um novo usuário com todas as permições e as seguintes configurações para name/password: `vgs`. Por fim, inicie a criação de uma nova conexão conforme as informações contidas na imagem abaixo:
+Por padrão o VGS usa o banco de dados `H2` - em memória, para realizar a persistência de dados. Se você deseja usar o `MySQL Workbench` para esta tarefa, tenha certeza de ter instalado o mesmo e criado um novo usuário com todas as permições e as seguintes configurações para Username/Password: `vgs`. Por fim, inicie a criação de uma nova conexão conforme as informações contidas na imagem abaixo:
 
 ![config](img/config.jpg)
 
