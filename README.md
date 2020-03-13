@@ -75,5 +75,5 @@ Execute o projeto no `Spring Tool Suite`.
 ## Time de desenvolvimento
 
   * [Danillo Rodrigues](https://github.com/danillobr)
-  * [João Marcos](https://github.com/joaomarcoos)
+  * [João Marcos](https://github.com/jmofarias)
   * [Luiz Fernando](https://github.com/lfnd0)
