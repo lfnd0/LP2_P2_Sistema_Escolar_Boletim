@@ -16,7 +16,7 @@
 Após a intalação das aplicações necessárias, realize o download do projeto, neste [link](https://github.com/lfnd0/LP2_P2_Video_Game_Shop/archive/master.zip). Ou se preferir, abra o terminal da sua máquina que reconheça os comados do `Git` e digite:
 
 ```sh
-git clone https://github.com/lfnd0/LP2_P2_Video_Game_Shop.git
+git clone https://github.com/lfnd0/video-game-shop-LP2P2.git
 ```
 
 Aguarde o download ou o comando `git clone` do VGS ser finalizado, em seguida abra o `Spring Tool Suite`, navegue até o diretório que você escolheu para a atividade anterior e faça a importação do projeto. Espere até que as dependências do `Maven` sejam instaladas para de fato executar a aplicação.
